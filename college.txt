@@ -1,0 +1,19 @@
+
+group name  c4
+ id =  13 name =  Anton age =  20
+ id =  14 name =  Anton age =  20
+ id =  17 name =  Andrey age =  27
+ id =  18 name =  Antoni age =  20
+ id =  19 name =  Antoni age =  5
+ id =  20 name =  Antoni age =  90
+ id =  21 name =  antoni age =  90
+ id =  22 name =  Andrey age =  12
+
+group name  c2
+ id =  5 name =  Sergey age =  44
+ id =  8 name =  Andrey age =  28
+ id =  23 name =  Nikita age =  30
+
+group name  c1
+ id =  25 name =  Serg age =  30
+ id =  26 name =  Andron age =  35

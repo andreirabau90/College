@@ -1,0 +1,111 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(date 1538167692000)
++++ .idea/workspace.xml	(date 1538167983000)
+@@ -2,7 +2,7 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="c35eb493-e927-4472-84dc-21827ddf359e" name="Default" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+     </list>
+     <ignored path="$PROJECT_DIR$/out/" />
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+@@ -94,11 +94,7 @@
+       </file>
+       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="170">
+-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+-            </state>
+-          </provider>
++          <provider selected="true" editor-type-id="text-editor" />
+         </entry>
+       </file>
+       <file leaf-file-name="Run.java" pinned="false" current-in-tab="false">
+@@ -344,7 +340,7 @@
+       <workItem from="1535745243978" duration="2532000" />
+       <workItem from="1535965173860" duration="15897000" />
+       <workItem from="1538164531210" duration="48000" />
+-      <workItem from="1538165750888" duration="1705000" />
++      <workItem from="1538165750888" duration="2086000" />
+     </task>
+     <task id="LOCAL-00001" summary="First commit">
+       <created>1535485487419</created>
+@@ -402,11 +398,18 @@
+       <option name="project" value="LOCAL" />
+       <updated>1538167262048</updated>
+     </task>
+-    <option name="localTasksCounter" value="9" />
++    <task id="LOCAL-00009" summary="commit 2">
++      <created>1538167692787</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1538167692787</updated>
++    </task>
++    <option name="localTasksCounter" value="10" />
+     <servers />
+   </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="145636000" />
++    <option name="totallyTimeSpent" value="146017000" />
+   </component>
+   <component name="ToolWindowManager">
+     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+@@ -417,10 +420,10 @@
+       <window_info anchor="right" id="Palette&#9;" order="7" />
+       <window_info id="Image Layers" order="6" />
+       <window_info anchor="right" id="Capture Analysis" order="4" />
+-      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.5042787" side_tool="true" visible="true" weight="0.32947975" />
++      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5042787" side_tool="true" visible="true" weight="0.32947975" />
+       <window_info anchor="right" id="Maven Projects" order="6" weight="0.3294621" />
+       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49572128" visible="true" weight="0.32947975" />
++      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.49572128" visible="true" weight="0.32947975" />
+       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.494705" weight="0.4054054" />
+       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32995495" />
+       <window_info id="Capture Tool" order="5" />
+@@ -733,11 +736,7 @@
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="170">
+-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+-        </state>
+-      </provider>
++      <provider selected="true" editor-type-id="text-editor" />
+     </entry>
+   </component>
+   <component name="masterDetails">
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- README.md	(date 1538167692000)
++++ README.md	(date 1538167983000)
+@@ -1,2 +1,3 @@
+ "# College" 
+ "# College" 
++"# College" 
+Index: src/com/company/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/com/company/Main.java	(date 1538167692000)
++++ src/com/company/Main.java	(date 1538167983000)
+@@ -8,7 +8,5 @@
+     public static void main(String[] args) {
+         Run run= new Run();
+ run.run();
+-int a= 2;
+- //ewgfWEGFgWG//
+     }
+ }
